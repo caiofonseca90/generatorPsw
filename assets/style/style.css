@@ -1,3 +1,12 @@
+@font-face{
+    font-family: tec;
+    src: url('/assets/font/BALLOON\ DREAMS.ttf ');
+}
+@font-face{
+    font-family: tec2;
+    src: url('/assets/font/Fast\ Hand.otf');
+}
+
 *{
     margin: 0;
     padding: 0;
