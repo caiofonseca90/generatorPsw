@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'Tec';
+    src: local('Tec'), url('/assets/font/BALLOON\ DREAMS.ttf ');
+}
+@font-face{
+    font-family: 'Tec2';
+    src: local('Tec2'), url('/assets/font/Fast\ Hand.otf');
+}
+
+.imgCad{
+    animation: efeitoCad 4s ease-in-out infinite alternate;
+}
+/* efetua animação na img ( cadeado ) */
+@keyframes efeitoCad {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+    
+}
+
