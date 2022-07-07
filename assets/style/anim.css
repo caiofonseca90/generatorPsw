@@ -1,10 +1,10 @@
 @font-face{
-    font-family: 'Tec';
-    src: local('Tec'), url('/assets/font/BALLOON\ DREAMS.ttf ');
+    font-family: tec;
+    src: url('/assets/font/BALLOON\ DREAMS.ttf ');
 }
 @font-face{
-    font-family: 'Tec2';
-    src: local('Tec2'), url('/assets/font/Fast\ Hand.otf');
+    font-family: tec2;
+    src: url('/assets/font/Fast\ Hand.otf');
 }
 
 .imgCad{

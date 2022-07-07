@@ -5,7 +5,6 @@
     
 }
 body{
-    
     background: linear-gradient(to right, rgb(7, 10, 29), rgba(0, 0, 0, 0.835));
 }
 
@@ -19,7 +18,7 @@ body{
     margin-left: 330px;
     letter-spacing: 5px;
     filter: drop-shadow(-5px 10px 5px  rgba(36, 35, 35, 0.7));
-    font-family: 'tec2';
+    font-family: 'tec2','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #02cbb7;
 }
 
@@ -70,8 +69,7 @@ body{
     background-color: transparent;
     color: #daa520;
 }
-
-.btn-Gen, .btn-Copy{
+.btn-Copy{
     height: 80px;
     width: 100px;
     color: white;
@@ -93,7 +91,6 @@ body{
     opacity: 0.5;
     cursor: pointer;
 }
-
 .reloadGen:hover{
     opacity: 1;
     background-color: transparent;

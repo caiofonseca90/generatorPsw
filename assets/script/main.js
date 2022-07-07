@@ -13,7 +13,7 @@ function validaQtdCaracter(){
         msg.innerHTML = " Deve conter entre 4 e 20";
         msg.style.color = "goldenrod";
         mostraSenha.value = '';
-        mostraSenha.style.color = 'grey';
+        mostraSenha.style.color = 'transparent';
         caracterQuantidade.value = '';
         copiarSenha.disabled = true;
     }else{
@@ -44,7 +44,9 @@ function gerador() {
     for (let i = 0; i < contador; i++) {
         senha += caracteres.charAt(Math.floor(Math.random() * qtdCaracteresLength));
     }
+    
     validaQtdCaracter();    
+
     if(senha.length >=4 && senha.length <=8){
         msg.innerHTML = "Senha FRACA";
         msg.style.color = "red";
@@ -58,7 +60,7 @@ function gerador() {
     
     mostraSenha.value = senha;
      // chama a função que faz a validação da quantidade de caracteres.
-    
+     
 }
 
 // Cria efeito ao botao toda vez que gera uma nova senha.
